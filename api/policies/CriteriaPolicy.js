@@ -101,7 +101,7 @@ function responsePolicy(criteria, _data, options) {
       }).results;
 
       if (filtered.length) {
-
+        //TODO: Implement whitelist logic
         if (crit.blacklist && crit.blacklist.length) {
           crit.blacklist.forEach(function (term) {
             delete item[term];

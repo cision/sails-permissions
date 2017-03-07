@@ -1,7 +1,7 @@
 {
-  "name": "sails-permissions",
+  "name": "cision-sails-permissions",
   "version": "2.2.0",
-  "description": "Comprehensive user permissions and entitlements system for sails.js and Waterline. Supports user authentication with passport.js, role-based permissioning, object ownership, and row-level security.",
+  "description": "Cision Fork. Comprehensive user permissions and entitlements system for sails.js and Waterline. Supports user authentication with passport.js, role-based permissioning, object ownership, and row-level security.",
   "main": "dist/api/hooks/permissions/index.js",
   "scripts": {
     "test": "gulp && mocha --reporter spec --compilers js:babel/register",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tjwebb/sails-permissions.git"
+    "url": "https://github.com/cision/sails-permissions.git"
   },
   "keywords": [
     "sails",
@@ -33,9 +33,9 @@
   "author": "Travis Webb <me@traviswebb.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tjwebb/sails-permissions/issues"
+    "url": "https://github.com/cision/sails-permissions/issues"
   },
-  "homepage": "https://github.com/tjwebb/sails-permissions",
+  "homepage": "https://github.com/cision/sails-permissions",
   "devDependencies": {
     "babel": "^5.8.21",
     "gulp": "^3.9.0",
